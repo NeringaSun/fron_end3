@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="register_script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://odishabytes.com/wp-content/uploads/2018/07/google-1088004_640.png"
+        alt="logo"
+      />
+      <h1>Split Bill</h1>
+      <div>BEST IN MARKET</div>
+    </header>
+    <main>
+      <form class="forms" id="register">
+        <h2>Register</h2>
+        <div class="form_field_container">
+          <label for="name">Full Name</label>
+          <input type="name" name="name" id="name" required />
+        </div>
+        <div class="form_field_container">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required />
+        </div>
+        <div class="form_field_container">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" required />
+        </div>
+        <div class="form_field_container">
+          <label for="password2">Repeat Password</label>
+          <input type="password" name="password2" id="password2" required />
+        </div>
+        <button type="submit">Register</button>
+        <div class="link_register_login">
+          Or perhaps, just <a href="login.html">login </a>?
+        </div>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>

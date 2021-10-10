@@ -1,0 +1,138 @@
+header {
+  text-align: center;
+}
+
+header img {
+  width: 10%;
+}
+
+header h1 {
+  color: #575757;
+}
+
+header div {
+  color: gray;
+  font-size: large;
+  letter-spacing: 0.5rem;
+}
+
+.log_out_go_back {
+  margin-top: 1rem;
+}
+
+.log_out_go_back a {
+  text-decoration: none;
+  color: gainsboro;
+  size: 80%;
+}
+
+.forms {
+  width: 50%;
+  margin: 4rem auto;
+}
+
+.forms .form_field_container {
+  margin-bottom: 20px;
+}
+
+.forms .form_field_container label {
+  font-weight: bold;
+}
+
+.forms .form_field_container input {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #e6e5e5;
+  border-radius: 4px;
+  padding: 9px;
+  margin-top: 0.3rem;
+}
+
+.forms button {
+  background-color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.forms .link_register_login {
+  margin: 1rem 0;
+}
+
+.forms .link_register_login a {
+  text-decoration: none;
+}
+
+#group_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.group_card {
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  background-color: white;
+  width: calc(100% / 5);
+  margin-bottom: 2rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0.2rem;
+  padding: 3rem;
+  text-align: center;
+}
+
+.group_card div:first-child {
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 0.5rem;
+}
+
+.group_card div:nth-child(2) {
+  font-size: large;
+  color: #818181;
+}
+
+#bills_list {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#bills_list table {
+  border-collapse: collapse;
+}
+
+#bills_list td,
+#bills_list th {
+  width: 5%;
+  text-align: left;
+  padding: 0.5rem 0.3rem;
+}
+
+#bills_list td:first-child,
+#bills_list th:first-child {
+  width: 2%;
+}
+
+tr:nth-child(2n + 1) {
+  background-color: #c5c1c1;
+}
+
+th {
+  background-color: white;
+}
+
+main h2 {
+  text-align: center;
+  margin: 6rem 0 2rem 0;
+}
+/*# sourceMappingURL=index.css.map */
